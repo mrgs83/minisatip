@@ -5,8 +5,8 @@
 
 typedef struct ca_device ca_device_t;
 
-#define MAX_ADAPTERS 32
-#define DVR_BUFFER 30 * 1024 * 188
+#define MAX_ADAPTERS 48
+#define DVR_BUFFER 30 * 4096 * 188
 
 #define ADAPTER_BUFFER 384 * DVB_FRAME // 128 * 3 > 65535
 #define RTSP_SETUP 1
